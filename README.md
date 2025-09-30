@@ -31,7 +31,7 @@ Este forecast é essencial para:
 
 | Aspecto | Tratamento |
 |---------|-----------|
-| **Zeros e dados faltantes** | Ausência de registros = tratado com rolling forecast, previsto pares (´bank´ x ´product´) que estiveram ativos em uma janela de 90 dias |
+| **Zeros e dados faltantes** | Ausência de registros = tratado com rolling forecast, previsto pares (bank x product) que estiveram ativos em uma janela de 90 dias, para o treinamento considerei apenas a combinação dia, banco e produto com dados |
 | **Sazonalidade** | Incorporada via features de calendário (dia da semana, fim de mês, feriados) |
 | **Mudança de mix** | Séries encerradas mantêm zero após última data real |
 | **Choques e picos** | Capturados indiretamente por lags e médias móveis |
