@@ -273,6 +273,8 @@ A base de dados com alta granularidade, sparse e com zero-inflation trouxe diver
 - Modelos especialistas por banco
 - Modelos especificos e potentes para séries temporais como o Prophet
 
+Por hora, o modelo Tweedie trouxe uma generalização razoável, com erros aceitaveis e explica bem a variância do alvo (com R2 ~40%), claro que ao analisar os valores na escala original, essas métricas tendem a piorar, mas a solução imediata mais prática para o negócio, acredito ser esta.
+
 ---
 
 ## Fontes utilizadas
