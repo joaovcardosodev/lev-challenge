@@ -1,6 +1,6 @@
 # 📊 Desafio de Previsão de Produção
 
-> Sistema de previsão de produção diária por Banco × Produto utilizando Machine Learning e técnicas de séries temporais.
+Sistema de previsão de produção diária por Banco × Produto utilizando Machine Learning e técnicas de séries temporais.
 
 ---
 
