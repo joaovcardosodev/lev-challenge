@@ -184,17 +184,31 @@ project/
 
 ### ▶️ Rodando o Pipeline
 
-1. **Garantir que o modelo treinado existe:**
+1. **Abra uma pasta em seu pc**
+
+2. **Inicialize o git através do CMD**
+
+```bash
+git init
+```
+
+3. **Clone este repositorio localmente**
+
+```bash
+git clone https://github.com/joaovcardosodev/lev-challenge.git
+```
+
+4. **Garantir que o modelo treinado existe:**
    ```bash
    ls models/tweedie_model.pkl
    ```
 
-2. **Executar o script de previsão:**
+5. **Executar o script de previsão:**
    ```bash
    python src/run_model.py
    ```
 
-3. **Verificar a saída:**
+6. **Verificar a saída:**
    ```bash
    head forecast.csv
    ```
@@ -260,6 +274,11 @@ A base de dados com alta granularidade, sparse e com zero-inflation trouxe diver
 - Modelos especificos e potentes para séries temporais como o Prophet
 
 ---
+
+## Fontes utilizadas
+
+1. [**Store Sales - Time Series Forecasting**](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/code)
+2. [**Ecuador Store Sales**](https://www.kaggle.com/code/chongzhenjie/ecuador-store-sales-global-forecasting-lightgbm)
 
 ## 👥 Contato
 
