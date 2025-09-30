@@ -1,0 +1,12 @@
+category_encoders==2.8.1
+holidays==0.81
+matplotlib==3.10.6
+numpy==2.3.3
+pandas==2.3.3
+scikit_learn==1.7.2
+scikit_optimize==0.10.2
+scipy==1.16.2
+seaborn==0.13.2
+statsmodels==0.14.2
+xgboost==3.0.5
+joblib==1.5.2
